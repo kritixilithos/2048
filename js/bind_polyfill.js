@@ -1,4 +1,4 @@
-Function.prototype.bind = Function.prototype.bind || function (target) {
+/*Function.prototype.bind = Function.prototype.bind || function (target) {
   var self = this;
   return function (args) {
     if (!(args instanceof Array)) {
@@ -7,3 +7,4 @@ Function.prototype.bind = Function.prototype.bind || function (target) {
     self.apply(target, args);
   };
 };
+*/
