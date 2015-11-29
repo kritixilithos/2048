@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
   if (typeof window.Element === "undefined" ||
       "classList" in document.documentElement) {
     return;
@@ -69,3 +69,4 @@
     return new DOMTokenList(this);
   });
 })();
+*/
