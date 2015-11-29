@@ -1,5 +1,7 @@
 # 2048
 
+###2048 easy
+
 Note that this code is forked from [gabrielecirulli](https://github.com/gabrielecirulli) by [kritixilithos](https://github.com/kritixilithos) and has code from [hczhcz's](https://github.com/hczhcz/) [20ez](https://github.com/hczhcz/2048/tree/gh-pages/20ez). I have created this fork because I wanted there to be a 20ez with support from localStorage so that users' progress will be saved.
 
 Play online [here](http://kritixilithos.github.io/2048/).
