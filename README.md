@@ -1,4 +1,14 @@
 # 2048
+
+Note that this code is forked from [gabrielecirulli](https://github.com/gabrielecirulli) by [kritixilithos](https://github.com/kritixilithos) and has code from [hczhcz's](https://github.com/hczhcz/) [20ez](https://github.com/hczhcz/2048/tree/gh-pages/20ez). I have created this fork because I wanted there to be a 20ez with support from localStorage so that users' progress will be saved.
+
+Play online [here](http://kritixilithos.github.io/2048/).
+
+Below is the original content of [gabrielecirulli's](https://github.com/gabrielecirulli) README.md of his 2048.
+
+____
+
+
 A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
 
 Made just for fun. [Play it here!](http://gabrielecirulli.github.io/2048/)
