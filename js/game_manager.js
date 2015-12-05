@@ -1,6 +1,3 @@
-var start = true;
-setInterval(function(){start = false;}, 10000);
-
 function GameManager(size, InputManager, Actuator, StorageManager) {
   this.size           = size; // Size of the grid
   this.inputManager   = new InputManager;
@@ -68,7 +65,7 @@ GameManager.prototype.addStartTiles = function () {
   }
 };
 
-// Adds a tile in a random position (code taken from hczhcz's 20ez)
+// Adds a tile in a random position (code in GameManager.prototype.addRandomTile is taken from hczhcz's 20ez)
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
     var self = this;
@@ -99,7 +96,7 @@ GameManager.prototype.addRandomTile = function () {
       check(0, -1, 0, -1);
       check(0, 1, 0, 1);
 
-      if (bvalue == 2147483647 && start) {bvalue = 2;}
+      if (bvalue == 2147483647) {bvalue = 2;}
     }
 
     var tile = new Tile(bcell, bvalue);
