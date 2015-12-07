@@ -186,9 +186,13 @@
   	function toggleScrolling() {
 	  scroll = !scroll;
 	  if(scroll) {
-	  	document.getElementById("body").style.overflow = "visible";
+	  	document.getElementById("container").style.overflow = "visible";
+	  	document.getElementById("container").style.overflowX = "visible";
+	  	document.getElementById("container").style.position = "static";
 	  }else{
-	  	document.getElementById("body").style.overflow = "hidden";
+	  	document.getElementById("container").style.overflow = "hidden";
+	  	document.getElementById("container").style.overflowX = "hidden";
+	  	document.getElementById("container").style.position = "fixed";
 	  }
   	}
   </script>
